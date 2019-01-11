@@ -3,6 +3,10 @@
   &__item {
     line-height: $line-height-lg;
     margin-bottom: $grid-base * 2;
+
+    &--compact {
+      margin-bottom: $grid-base * 1.25;
+    }
   }
 
   &__icon {
